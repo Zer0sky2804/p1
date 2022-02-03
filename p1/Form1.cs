@@ -22,6 +22,8 @@ namespace p1
             int a = int.Parse(textBox1.Text);
             int b = int.Parse(textBox2.Text);
             label1.Text = (a + b).ToString();
+            label2.Text = (a - b).ToString();
+
         }
     }
 }
